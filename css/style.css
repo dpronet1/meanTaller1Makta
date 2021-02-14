@@ -1,0 +1,74 @@
+/* Text */
+
+* {
+    transition: all 0.4s
+}
+
+h1.custom-color {
+    color: #050000;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span.custom-color {
+    color: #2b2a2a;
+}
+
+
+/* Produnct Image Container */
+
+.image-container {
+    margin: auto;
+    width: fit-content;
+}
+
+
+/* Custom Secondary Color */
+
+.custom-secondary-color {
+    color: #025e73
+}
+
+.desc-container {
+    height: 75%;
+}
+
+
+/* Custom Button Add Item */
+
+.btn-custom {
+    border-color: #025e73 !important;
+    background-color: #025e73 !important;
+    color: white;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    border-color: #025e73 !important;
+    background-color: #025e73 !important;
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+
+/* Custom Background for elements */
+
+.bg-custom {
+    background-color: #076479 !important;
+}
+
+#quantity {
+    padding-left: inherit;
+}
+
+
+/* Responsive */
+
+@media (max-width: 576px) {
+    .desc-container {
+        height: auto;
+    }
+    #quantity {
+        padding-left: 1.5rem;
+    }
+}
